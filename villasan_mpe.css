@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s ease;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    max-width: 90vw;
+    margin: 1rem auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: url("mdtbg.JPG");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    gap: 20px;
+}
+
+.card{
+    padding: 20px;
+    width: 250px;
+    vertical-align: center;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    display: none;
+    text-align: center;
+    font-family: Arial;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 4px 4px 4px black;
+}
+
+#pball{
+    display: none;
+    width: 80px;
+    height: 80px;
+}
+
+.bull{
+    background-color: #4EC87C;
+}
+
+.wee{
+    background-color: #DBC48B;
+}
+
+.jig{
+    background-color: #EDA1CC;
+}
+
+.pika{
+    background-color: #FCD61B;
+}
+
+.meow{
+    background-color: #E9E5C6;
+}
+
+.dra{
+    background-color: #50B0E7;
+}
+
+.mank{
+    background-color: #F2D4A3;
+}
+
+.rat{
+    background-color: #BD76FE;
+}
+
+.cater{
+    background-color: #84DB3E;
+}
+
+.mew{
+    background-color: #F2C4B4;
+}
+
+.char{
+    background-color: #F37821;
+}
+
+.eev{
+    background-color: #D0974E;
+}
+
+@media(max-width:1300px){
+    .card{
+        width: 300px;
+    }
+}
+
+@media(max-width:1090px){    
+    .card{
+        display: flex;
+        padding: 20px;
+        width: 500px;
+        vertical-align: center;
+        flex-grow: 1;
+    }
+
+    .card:hover{
+        background: url("hover.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    p, #pball{
+        display: inline-block;
+    }
+
+    img{
+        width: 100px;
+    }
+}
+
+@media(max-width:500px){
+    .card{
+        padding: 20px;
+        width: 250px;
+        vertical-align: center;
+        flex-grow: 1;
+        flex-direction: column;
+    }
+
+    .card:hover{
+        background: url("hover.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    p{
+        margin-top: 1rem;
+    }
+
+    #pball{
+        display: none;
+    }
+
+    img{
+        width: 200px;
+    }
+}
