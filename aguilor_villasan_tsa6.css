@@ -157,10 +157,12 @@ body .favorite{
 /* HANGGANG DITO LANG CHARACTERS */
 
 body .news-container{
-    width: 95vw;
-    margin: 0 auto;
-    padding-top: 25px;
-    padding-bottom: 50px;
+    max-width: 95vw;
+    margin: 1rem auto;
+    text-align: center; 
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
     justify-content: space-evenly;
 }
 
