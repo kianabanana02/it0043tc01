@@ -421,7 +421,7 @@ body .portfolio{
 }
 
 .news-img-1{
-    background: url("tsa6_news1.png");
+    background: url("Technical1.gif");
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
@@ -431,7 +431,7 @@ body .portfolio{
 }
 
 .news-img-2{
-    background: url("tsa6_news2.png");
+    background: url("Technical2.gif");
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
@@ -441,7 +441,7 @@ body .portfolio{
 }
 
 .news-img-3{
-    background: url("tsa6_news3.png");
+    background: url("Technical3.gif");
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
@@ -451,7 +451,7 @@ body .portfolio{
 }
 
 .news-img-4{
-    background: url("tsa6_news4.png");
+    background: url("Technical4.gif");
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
@@ -651,7 +651,7 @@ body .portfolio{
 }
 
 .b1{
-    background-color: rgb(245, 220, 144);
+    background-color: #FFF786;
 }
 
 .b2{
