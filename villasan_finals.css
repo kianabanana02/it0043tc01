@@ -481,7 +481,7 @@ body .portfolio{
 }
 
 .news-img-7{
-    background: url("tsa6_news4.png");
+    background: url("Technical7.gif");
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
@@ -491,7 +491,7 @@ body .portfolio{
 }
 
 .news-img-8{
-    background: url("tsa6_news4.png");
+    background: url("midtrm.gif");
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
@@ -501,7 +501,7 @@ body .portfolio{
 }
 
 .news-img-9{
-    background: url("tsa6_news4.png");
+    background: url("fproj.gif");
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
@@ -603,15 +603,15 @@ body .portfolio{
 }
 
 .card7{
-    background-color: #a47cc6;
+    background-color: #6dc6c9;
 }
 
 .card8{
-    background-color: #a47cc6;
+    background-color: #f7848e;
 }
 
 .card9{
-    background-color: #a47cc6;
+    background-color: #8183da;
 }
 
 .t1{
@@ -639,15 +639,15 @@ body .portfolio{
 }
 
 .t7{
-    color: #f4eafd;
+    color: rgb(228, 253, 255);
 }
 
 .t8{
-    color: #fffce0;
+    color: #fdecec;
 }
 
 .t9{
-    color: #f4eafd;
+    color: rgb(249, 246, 252);
 }
 
 .b1{
@@ -675,13 +675,49 @@ body .portfolio{
 }
 
 .b7{
-    background-color: rgb(213, 182, 243)
+    background-color: rgb(168, 226, 230);
 }
 
 .b8{
-    background-color: pink;
+    background-color: #eeb5b5;
 }
 
 .b9{
-    background-color: rgb(213, 182, 243)
+    background-color: #b5b7e7;
+}
+
+.card1:hover{
+    box-shadow: 0 0 25px #fad869;
+}
+
+.card2:hover{
+    box-shadow: 0 0 25px #63a9d9;
+}
+
+.card3:hover{
+    box-shadow: 0 0 25px #e96fa6;
+}
+
+.card4:hover{
+    box-shadow: 0 0 25px #b790da;
+}
+
+.card5:hover{
+    box-shadow: 0 0 25px #81cf8e;
+}
+
+.card6:hover{
+    box-shadow: 0 0 25px #e4b166;
+}
+
+.card7:hover{
+    box-shadow: 0 0 25px #6dc6c9;
+}
+
+.card8:hover{
+    box-shadow: 0 0 25px #f7848e;
+}
+
+.card9:hover{
+    box-shadow: 0 0 25px #8183da;
 }
