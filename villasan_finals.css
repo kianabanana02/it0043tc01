@@ -461,7 +461,7 @@ body .portfolio{
 }
 
 .news-img-5{
-    background: url("tsa6_news4.png");
+    background: url("Technical5.gif");
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
@@ -471,7 +471,7 @@ body .portfolio{
 }
 
 .news-img-6{
-    background: url("tsa6_news4.png");
+    background: url("Technical6.gif");
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
@@ -591,15 +591,15 @@ body .portfolio{
 }
 
 .card4{
-    background-color: #a47cc6;
+    background-color: #b790da;
 }
 
 .card5{
-    background-color: #a47cc6;
+    background-color: #81cf8e;
 }
 
 .card6{
-    background-color: #a47cc6;
+    background-color: #e4b166;
 }
 
 .card7{
@@ -615,7 +615,7 @@ body .portfolio{
 }
 
 .t1{
-    color: #ffffff;
+    color: #fffcd3;
 }
 
 .t2{
@@ -623,7 +623,7 @@ body .portfolio{
 }
 
 .t3{
-    color: #fffce0;
+    color: #fadae8;
 }
 
 .t4{
@@ -631,11 +631,11 @@ body .portfolio{
 }
 
 .t5{
-    color: #fffce0;
+    color: #eaf7ed;
 }
 
 .t6{
-    color: #f4eafd;
+    color: #fff1cb;
 }
 
 .t7{
@@ -659,19 +659,19 @@ body .portfolio{
 }
 
 .b3{
-    background-color: pink;
+    background-color: #FDB9D6;
 }
 
 .b4{
-    background-color: rgb(213, 182, 243)
+    background-color: rgb(213, 182, 243);
 }
 
 .b5{
-    background-color: pink;
+    background-color: #C7F1D2;
 }
 
 .b6{
-    background-color: rgb(213, 182, 243)
+    background-color: #FBDA80;
 }
 
 .b7{
