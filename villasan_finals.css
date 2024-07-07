@@ -6,57 +6,57 @@
     transition: 1s ease;
 }
 
-.mobile-container {
+.other-navi-container {
     display: none;
 }
 
-.mobile-container {
+.other-navi-container {
     max-width: 480px;
     margin: auto;
     background-color: #555;
     height: 500px;
     color: white;
     border-radius: 10px;
-  }
-  
-  .topnav {
+}
+
+.topnav {
     overflow: hidden;
     background-color: #E2DEEF;
     position: relative;
-  }
-  
-  .topnav #myLinks {
+}
+
+.topnav #myLinks {
     display: none;
-  }
-  
-  .topnav a {
+}
+
+.topnav a {
     color: rgb(156, 27, 87);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
-  }
+}
 
-  .meep a{
+.meep a {
     color: black;
-  }
-  
-  .topnav a.icon {
+}
+
+.topnav a.icon {
     background: rgb(247, 136, 188);
     display: block;
     position: absolute;
     right: 0;
     top: 0;
-  }
-  
-  .active {
+}
+
+.active {
     background-color: pink;
     color: rgb(156, 27, 87);
-  }
+}
 
 .navi {
     background-color: pink;
-    position: fixed; 
+    position: fixed;
     top: 0;
     width: 100%;
     transition: top 1s;
@@ -91,7 +91,7 @@ li {
 
 li>a {
     font-size: 1.2rem;
-    color: rgb(156, 27, 87)  ;
+    color: rgb(156, 27, 87);
     text-decoration: none;
     transition: 0.4s all ease;
 }
@@ -240,7 +240,7 @@ li>a:hover {
     grid-row: 1/2;
 }
 
-.welcome{
+.welcome {
     font-size: 1.1rem;
 }
 
@@ -803,10 +803,10 @@ body .feedback-container {
 main .feedback {
     width: 95vw;
     margin: 0 auto;
-    
+
 }
 
-.feedback-person{
+.feedback-person {
     /* background-color: #cbc4fb; */
     background-color: #eceaeab2;
     padding: 20px 30%;
@@ -1024,18 +1024,18 @@ input[type=submit]:hover {
         box-sizing: border-box;
     }
 
-    .feedback-person{
+    .feedback-person {
         padding: 20px 15%;
     }
 }
 
 @media (max-width: 660px) {
 
-    .navi{
+    .navi {
         display: none;
     }
 
-    .mobile-container {
+    .other-navi-container {
         display: contents;
     }
 
@@ -1047,7 +1047,7 @@ input[type=submit]:hover {
         display: contents;
     }
 
-    .container{
+    .container {
         display: flex;
         flex-direction: column;
         line-height: 2rem;
@@ -1057,11 +1057,16 @@ input[type=submit]:hover {
         padding-top: 80px;
     }
 
-    .feedback-person{
+    .feedback-person {
         padding: 20px 8%;
     }
+
     .intro-container {
         padding-top: 15px;
+    }
 
+    #start123{
+        height: 100%;
+        align-self: center;
     }
 }
