@@ -6,9 +6,53 @@
     transition: 1s ease;
 }
 
-.frm4 {
+.mobile-container {
     display: none;
 }
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #E2DEEF;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: rgb(156, 27, 87);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .meep a{
+    color: black;
+  }
+  
+  .topnav a.icon {
+    background: rgb(247, 136, 188);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .active {
+    background-color: pink;
+    color: rgb(156, 27, 87);
+  }
 
 .navi {
     background-color: pink;
@@ -238,6 +282,7 @@ a {
     text-decoration: none;
     color: #2f6b2f;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 /* HANGGANG DITO LANG HOME PAGE */
@@ -985,18 +1030,13 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 660px) {
-    .nav {
-        font-size: 1rem;
+
+    .navi{
+        display: none;
     }
 
-    .navi {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+    .mobile-container {
+        display: contents;
     }
 
     .frm3 {
@@ -1019,5 +1059,9 @@ input[type=submit]:hover {
 
     .feedback-person{
         padding: 20px 8%;
+    }
+    .intro-container {
+        padding-top: 15px;
+
     }
 }
