@@ -909,6 +909,9 @@ input[type=submit]:hover {
 }
 
 @media(max-width: 1000px) {
+    .main-container{
+        padding-top: 30px;
+    }
     .intro-container {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1064,17 +1067,11 @@ input[type=submit]:hover {
     .intro-container {
         padding-top: 15px;
     }
+}
 
-    .intro{
+@media (max-width: 500px) {
+    img {
+        height: auto;
         max-width: 100%;
-    }
-
-    #it2{
-        height: 300px;
-    }
-
-    #start123{
-        max-width: 80%;
-        align-self: center;
     }
 }
