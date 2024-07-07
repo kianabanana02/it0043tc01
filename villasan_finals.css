@@ -34,11 +34,15 @@
 
 .menu {
     display: flex;
+    flex-direction: row;
+    text-align: justify;
+    align-items: left;
+    justify-content: space-evenly;
+    gap: 25px;
 }
 
 li {
     list-style: none;
-    margin-left: 30px;
 }
 
 li>a {
