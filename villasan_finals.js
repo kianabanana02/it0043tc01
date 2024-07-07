@@ -9,6 +9,17 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("other-navi-container").style.top = "0";
+  } else {
+    document.getElementById("other-navi-container").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
 function myFunction() {
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
