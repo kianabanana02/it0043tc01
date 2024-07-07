@@ -1065,11 +1065,16 @@ input[type=submit]:hover {
         padding-top: 15px;
     }
 
-    #start123{
-        height: 80%;
-        align-self: center;
+    .intro{
+        max-width: 100%;
     }
+
     #it2{
         height: 300px;
+    }
+
+    #start123{
+        max-width: 80%;
+        align-self: center;
     }
 }
