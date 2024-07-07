@@ -1066,7 +1066,10 @@ input[type=submit]:hover {
     }
 
     #start123{
-        height: 100%;
+        height: 80%;
         align-self: center;
+    }
+    #it2{
+        height: 300px;
     }
 }
