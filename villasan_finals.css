@@ -1092,4 +1092,8 @@ input[type=submit]:hover {
         height: auto;
         max-width: 100%;
     }
+
+    .itr3 {
+        height: 175px;
+    }
 }
