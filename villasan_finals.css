@@ -864,7 +864,19 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-    background-color: pink;
+    background-color: rgb(245, 244, 244);
+    box-shadow: 0 0 20px #757575;
+}
+
+textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea:focus {
+    background-color: rgb(245, 244, 244);
+    box-shadow: 0 0 20px #757575;
 }
 
 input[type=submit] {
@@ -876,6 +888,8 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: pink;
+    box-shadow: 0 0 20px #757575;
+
 }
 
 /* HANGGANG DITO LANG CONTACTS */
