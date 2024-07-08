@@ -6,6 +6,10 @@
     transition: 1s ease;
 }
 
+.frm4{
+    display: none;
+}
+
 .other-navi-container {
     display: none;
 }
