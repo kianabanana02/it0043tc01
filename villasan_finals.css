@@ -164,7 +164,7 @@ li>a:hover {
 }
 
 .hello {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-weight: 1;
 }
 
@@ -245,7 +245,7 @@ li>a:hover {
 }
 
 .welcome {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .welcome-msg {
@@ -384,7 +384,7 @@ body .about {
 .namers {
     font-size: 2.5rem;
     font-weight: 700;
-    line-height: 2rem;
+    line-height: 100%;
     padding-bottom: 20px;
 }
 
